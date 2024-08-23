@@ -1,25 +1,28 @@
-*{
-    background: #1deb84;
-        font-family: "Matemasie", sans-serif;
-        font-weight: 400;
-        font-size: 32px;
-        line-height: 150%;
-     
-      }
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Luckiest+Guy&family=Oxanium:wght@200..800&display=swap');
 
-     .logo{
-        padding-top: 10px;
-        margin-left: 10px;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+     .logoa{
+        padding-top: 5px;
+        margin-left: 5px;
         width: 10%;
+        border: 4px solid #f10909;
       }
       
       main {
         display: flex;
-        margin-bottom: 50px;
-        margin-left: 80px;
+        position: relative;
+        width: 30%;
+        margin-left: 60px;
+        border: 4px solid #f10909;
       }
+
+
       .text-area {
-        border: none;
         color: #0A3871;
         margin-top: 90px;
         text-transform: lowercase;
@@ -28,6 +31,7 @@
         color: #0A3871; }
         .text-area:focus{
             outline: none;
+            
         }
         .mensaje {
         background-color: white;
@@ -38,10 +42,13 @@
         border-radius: 24px;
         color: #0A3871;
         margin-left: 98px;
-        margin-top: 20 PX;
+        margin-top: 2PX;
         padding-left: 20px;
         position: fixed;
-        }
+        height: 31%;
+        border: 4px solid #f10909;
+      }
+        
         .mensaje:focus {
             outline: none;
         }
@@ -58,9 +65,9 @@
             border-radius: 24px;
             color: #0A3871;
             cursor: pointer;
-            height: 67px;
+            height: 67%;
             margin-left: 30px;
-            width: 328px;   
+            width: 328%;   
 
         }
 
@@ -70,8 +77,8 @@
             border-radius: 24px;
             color: white;
             cursor: pointer;
-            height: 67px;
-            width: 328px;
+            height: 67%;
+            width: 328%;
 
         }
 
@@ -81,16 +88,19 @@
             border-radius: 24px;
             color: #0A3871;
             cursor: pointer;
-            height: 67px;
+            height: 10%;
             margin-left: 108px;
-            margin-top: 402px;
+            margin-top: 120px;
             position: absolute;
-            width: 326px;
+            width: 26%;
+            border: 4px solid #f10909;
         }
 
         .informacion {
             color: #494949;
             font-size: 18px;
+            border: 4px solid #f10909;
+            
         }
 
         .footer{
@@ -101,8 +111,5 @@
             font-family:"Matemasie", sans-serif ;
             font-size: 1.5rem;
             font-weight: 400;
-        }
         
-      
-      
-
+        }
